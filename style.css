@@ -1,0 +1,76 @@
+body {
+	width: 640px;
+	font-family:sans-serif;
+	font-size:14px;
+/*	border:1px solid black; */
+}
+
+.header {
+	width: 576px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+/*	border:1px solid black; */
+}
+
+.headline {
+	text-align:center;
+/*	border:1px solid black; */
+}
+
+.body {
+	width:576px;
+	margin-left: 5%;
+	margin-right: 5%;
+/*	border:1px solid black; */
+}
+
+.QABox {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.answer {
+	font-style:italic;
+}
+
+
+.textbox {
+
+}
+
+.createbox {
+/*	border:1px solid black; */
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.deletebox {
+/*	border:1px solid black; */
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.inputtitletd {
+	width: 100px;
+}
+
+.resolvebox {
+/*	border:1px solid black; */
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	width:576px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	font-size:12px;
+/*	border:1px solid black; */
+}
+
