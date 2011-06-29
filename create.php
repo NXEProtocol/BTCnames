@@ -2,6 +2,31 @@
 	$path = dirname($_SERVER['PHP_SELF']);
 	$path = ($path == '/' ? '' : $path);
 	echo '<div class="createbox">';
+		if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+			if (isset($_GET['result']))
+			{
+				$resultid = $_GET['result'];
+				switch ($resultid)
+				{
+					case 0:
+						echo 'Unknown Error. Contact Staff: team@btcnames.org';
+					break;
+					case 1:
+						echo 'All done. :)';
+					break;
+					case 2:
+						echo 'Name already exists, please try again!';
+					break;
+					case 3:
+						echo 'Database Error. Contact Staff: team@btcnames.org';
+					break;
+					
+					default:
+	
+					break;
+				}
+			}
+		}
 		echo '<form action="api.php" method="post">';
 			echo '<input type="hidden" name="type" value="add" />';	
 			echo '<table>';

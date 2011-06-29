@@ -25,6 +25,23 @@ body {
 /*	border:1px solid black; */
 }
 
+
+.contentbox {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	border:0px solid black;
+}
+.globTD {
+
+	border-left:1px solid silver;
+	border-right:1px solid silver;	
+	width:576px;
+	height:100%;
+
+}
+
+
 .QABox {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -41,6 +58,14 @@ body {
 
 .textbox {
 
+}
+
+.bodyhr {
+	height: 1px;
+	width: 415px;
+	color:silver;
+	background-color:silver;
+	
 }
 
 .createbox {
@@ -73,4 +98,26 @@ body {
 	font-size:12px;
 /*	border:1px solid black; */
 }
+
+/*
+This is just rounded corner stuff for the main frame
+*/
+.table {width:50%; margin:20px 0px 0px 20px;border:0px solid light-gray;}
+.cnptransactbl { margin:20px 0px 0px 20px; }
+.cnpdescrp { margin:20px 0px 0px 20px; }
+*	{
+	margin: 0px; 
+	padding: 0px;
+}
+.tr { background:white; border:0px solid black;}
+.tdtitle { padding:0px 0px 0px 10px;border:0px solid black; width:20%;border-left:1px solid silver;}
+.tdvalue { padding:0px 0px 0px 0px;border:0px solid black; width:80%;border-right:1px solid silver;}					
+.rrcorner{display:block}
+.rrcorner *{display:block;height:1px;overflow:hidden;font-size:.01em;background:white}
+.rrcorner1{margin-left:3px;margin-right:3px;padding-left:1px;padding-right:1px;border-left:1px solid silver;border-top:1px solid silver;border-right:1px solid silver;background:white}
+.rrcorner2{margin-left:1px;margin-right:1px;padding-right:1px;padding-left:1px;border-left:1px solid silver;border-right:1px solid silver;background:white}
+.rrcorner3{margin-left:1px;margin-right:1px;border-left:1px solid silver;border-right:1px solid silver;}
+.rrcorner4{border-left:1px solid silver;border-right:1px solid silver}
+.rrcorner5{border-left:1px solid silver;border-right:1px solid silver}
+
 
