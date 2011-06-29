@@ -1,9 +1,6 @@
 <?php
-	define ( 'MYSQL_HOST',      '127.0.0.1:3307' );
-	define ( 'MYSQL_BENUTZER',  'xb4438_2' );
+	require_once('../config/dba.conf');
 
-	define ( 'MYSQL_KENNWORT',  file_get_contents("../config/datab.cofg") );
-	define ( 'MYSQL_DATENBANK', 'xb4438_db2' );
 
 	function ExecSQLNonSelect($sql)
 	{
